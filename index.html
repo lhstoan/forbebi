@@ -7,9 +7,9 @@
 	<META NAME="Author" CONTENT="">
 	<META NAME="Keywords" CONTENT="">
 	<META NAME="Description" CONTENT="">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Damion&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Damion&display=swap" rel="stylesheet">
 	<style>
 		html,
 		body {
@@ -40,13 +40,10 @@
 		}
 
 		#pinkboard {
-			position: fixed;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%,-50%);
+			position: relative;
 			margin: auto;
-			height: 500px;
-			width: 500px;
+			height: 100vw;
+			width: 100vw;
 			animation: animate 1.3s infinite;
 		}
 
@@ -92,23 +89,27 @@
 				transform: scale(1);
 			}
 		}
-		.iloveu{
+
+		.iloveu {
 			position: fixed;
 			color: #FF5CA4;
-			font-size: 2vw;
+			font-size: 40px;
 
 		}
-		.slogan{
+
+		.slogan {
 			position: fixed;
 			top: 2%;
 			color: #fff;
-			font-size: 20px;
+			font-size: 40px;
 			text-align: center;
 		}
-		.slogan span{
+
+		.slogan span {
 			display: block;
 		}
-		.slogan .name{
+
+		.slogan .name {
 			font-size: 1.5em;
 		}
 	</style>
@@ -339,9 +340,7 @@
 			}, 10);
 		})(document.getElementById('pinkboard'));
 	</script>
-	<div class="iloveu">I Love You, Bebi <3 
-		
-	</div>
+	<div class="iloveu">I Love You, Bebi <3 </div>
 </BODY>
 
 </HTML>
